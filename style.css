@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    height: 200px; /* Altura desejada do divisor */
+    background-image: url('assets/images/banner.png'); /* Substitua 'background.jpg' pelo caminho real da sua imagem */
+    background-size: 800px 600px; /* Substitua 'background.jpg' pelo caminho real da sua imagem */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-color: rgb(3, 28, 43);
+    color: #111111; /* Cor do texto para garantir contraste adequado */
+  }
+  
+  header {
+    background-color: rgba(5, 21, 30, 0); /* Cor de fundo com opacidade para permitir que a imagem seja visível */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3498db
+
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ad2d2d00;
+    box-shadow: 0 0 10px rgba(146, 24, 24, 0.1)
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  button {
+    color: #3498db;
+    background-color: #ffffff00;
+    border: 2px solid #3498db;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Arial';
+    font-size: 20px;
+  }
